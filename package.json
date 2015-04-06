@@ -1,6 +1,6 @@
 {
   "name": "viewport-events",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Enable viewport events for DOM-elements: enteredView, leftView",
   "main": "index.js",
   "files": [
