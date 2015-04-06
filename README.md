@@ -1,4 +1,4 @@
-## Viewport events [![Code Climate](https://codeclimate.com/github/dfcreative/viewport-events/badges/gpa.svg)](https://codeclimate.com/github/dfcreative/viewport-events) <a href="UNLICENSE"><img src="http://upload.wikimedia.org/wikipedia/commons/6/62/PD-icon.svg" width="20"/></a>
+## Viewport events [![Code Climate](https://codeclimate.com/github/kudago/viewport-events/badges/gpa.svg)](https://codeclimate.com/github/kudago/viewport-events) <a href="UNLICENSE"><img src="http://upload.wikimedia.org/wikipedia/commons/6/62/PD-icon.svg" width="20"/></a>
 
 
 Enable viewport events for HTML elements: `enteredView`, `leftView`.

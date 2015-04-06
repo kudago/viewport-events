@@ -1,6 +1,6 @@
 {
   "name": "viewport-events",
-  "version": "0.3.3",
+  "version": "1.0.0",
   "description": "Enable viewport events for DOM-elements: enteredView, leftView",
   "main": "index.js",
   "files": [
@@ -25,9 +25,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/dfcreative/viewport.git"
+    "url": "git://github.com/kudago/viewport.git"
   },
-  "homepage": "https://github.com/dfcreative/viewport",
+  "homepage": "https://github.com/kudago/viewport",
   "author": "dfcreative",
   "license": "unlicense"
 }
