@@ -1,0 +1,98 @@
+<!doctype html>
+
+
+<!-- dev -->
+<script src="../node_modules/require-stub/index.js"></script>
+
+
+<style>
+	body{
+		padding: 20px;
+	}
+	.target{
+		display: block;
+		width: 200px;
+		height: 300px;
+		float: left;
+		background: white;
+		transition: 1s ease-in background;
+		border: 2px solid black;
+		margin: 0 20px 20px 0;
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	.target:nth-child(odd){
+		height: 400px;
+	}
+	.target:nth-child(even){
+		float: right;
+	}
+
+	.target.entered{
+		background: gray;
+	}
+
+	.add{
+		position: fixed;
+		top: 10px;
+		right: 10px;
+	}
+</style>
+
+
+<button class="add">Add 10 items</button>
+
+
+<div class="target"></div>
+<div class="target"></div>
+<div class="target"></div>
+<div class="target"></div>
+<div class="target"></div>
+<div class="target"></div>
+<div class="target"></div>
+<div class="target"></div>
+<div class="target"></div>
+<div class="target"></div>
+<div class="target"></div>
+<div class="target"></div>
+<div class="target"></div>
+<div class="target"></div>
+<div class="target"></div>
+<div class="target"></div>
+<div class="target"></div>
+<div class="target"></div>
+<div class="target"></div>
+<div class="target"></div>
+<div class="target"></div>
+<div class="target"></div>
+<div class="target"></div>
+<div class="target"></div>
+<div class="target"></div>
+<div class="target"></div>
+<div class="target"></div>
+<div class="target"></div>
+
+
+<script>
+	var vpEvents = require('..');
+
+	document.addEventListener('enteredView', function(e){
+		e.target.classList.add('entered');
+	});
+
+	document.addEventListener('leftView', function(e){
+		e.target.classList.remove('entered');
+	});
+
+	vpEvents();
+
+
+	var el = document.createElement('div');
+	el.className = 'target';
+	document.querySelector('.add').addEventListener('click', function(){
+		for (var i = 10; i--;){
+			document.body.appendChild(el.cloneNode());
+		}
+	});
+</script>

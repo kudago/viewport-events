@@ -1,0 +1,33 @@
+{
+  "name": "viewport-events",
+  "version": "0.3.3",
+  "description": "Enable viewport events for DOM-elements: enteredView, leftView",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "dependencies": {
+    "emmy": ">=3.1.0",
+    "intersects": "*",
+    "tiny-element": "*"
+  },
+  "devDependencies": {
+    "require-stub": "^2.2.4"
+  },
+  "scripts": {
+  },
+  "keywords": [
+    "viewport",
+    "DOM",
+    "dom-events",
+    "enteredView",
+    "customElements"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dfcreative/viewport.git"
+  },
+  "homepage": "https://github.com/dfcreative/viewport",
+  "author": "dfcreative",
+  "license": "unlicense"
+}
